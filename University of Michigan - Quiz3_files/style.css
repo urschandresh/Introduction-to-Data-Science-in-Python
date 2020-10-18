@@ -1,0 +1,55 @@
+.umblue {
+    background-color: #00274C !important;
+    color: white !important;
+}
+
+.ummaize {
+    background-color: #FFCB05 !important;
+    color: #00274C !important;
+}
+
+.question-text {
+    white-space: pre-line
+}
+
+#um-logo {
+    height: 100%;
+    padding: 2.5%;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+[type="radio"]:checked+label::after,
+[type="radio"].with-gap:checked+label::after {
+    background-color: #00274C !important;
+}
+
+[type="radio"]:checked+label::after,
+[type="radio"].with-gap:checked+label::before,
+[type="radio"].with-gap:checked+label::after {
+    border: 2px solid #00274C !important;
+}
+
+[type="radio"]:checked+span:after,
+[type="radio"].with-gap:checked+span:before,
+[type="radio"].with-gap:checked+span:after {
+    border: 2px solid #00274C;
+}
+
+[type="radio"]:checked+span:after,
+[type="radio"].with-gap:checked+span:after {
+    background-color: #00274C;
+}
+
+code {
+    color: darkgreen !important;
+    font-size: small;
+}
